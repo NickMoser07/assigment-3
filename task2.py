@@ -1,15 +1,5 @@
 import turtle as t
 
-
-
-
-
-
-
-
-
-
-
 x = int(input("where do you want your circle x (-150, 150)"))
 y = int(input("where do you want your circle x (-150, 150)"))
 
@@ -17,7 +7,6 @@ radius = int(input("what is the diameter of your inner circle"))
 radius /= 2
 radius = int(radius)
 finished = input("press enter to draw")
-
 
 #drawing
 
