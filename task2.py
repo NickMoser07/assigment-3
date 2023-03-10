@@ -9,7 +9,7 @@ radius = int(radius)
 finished = input("press enter to draw")
 
 #drawing
-
+t.speed(0)
 t.penup()
 t.goto(x,y)
 t.pendown()
@@ -38,6 +38,6 @@ t.color("yellow")
 t.begin_fill()
 t.circle(radius)
 t.end_fill()
-
+t.hideturtle()
 
 finish = input("press enter to end")
